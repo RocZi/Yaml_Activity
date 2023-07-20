@@ -26,5 +26,5 @@ jobs:
     - name: Execute tests
       run: |
         echo "Run"
-        pytest test_calculator.py -v
+        pytest test_calculator.py -v -s
         
