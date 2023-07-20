@@ -40,7 +40,7 @@ def divide(x, y):
 ])
 
 def test_add(x, y, expected_result):
-    assert calculator.add(x, y) == expected_result
+    assert add(x, y) == expected_result
 
 
 # SUBTRACT
@@ -66,7 +66,7 @@ def test_add(x, y, expected_result):
 ])
 
 def test_subtract(x, y, expected_result):
-    assert calculator.subtract(x, y) == expected_result
+    assert subtract(x, y) == expected_result
 
 
 # MULTIPLY
@@ -92,7 +92,7 @@ def test_subtract(x, y, expected_result):
 ])
 
 def test_multiply(x, y, expected_result):
-    assert calculator.multiply(x, y) == expected_result
+    assert multiply(x, y) == expected_result
 
 
 
@@ -122,4 +122,4 @@ def test_multiply(x, y, expected_result):
 ])
 
 def test_divide(x, y, expected_result):
-    assert calculator.divide(x, y) == expected_result
+    assert divide(x, y) == expected_result
