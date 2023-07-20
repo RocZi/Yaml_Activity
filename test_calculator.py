@@ -1,6 +1,21 @@
-import calculator
-
 import pytest
+
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y != 0:    # need to comment out for testing divide by zero to get ZeroDivisionError
+        return x / y
+    else:         # need to comment out for testing divide by zero to get ZeroDivisionError
+        return "Error: Division by zero is not allowed by Benny."     # need to comment out for testing divide by zero to get ZeroDivisionError
+
+
 
 # ADD
 @pytest.mark.parametrize("x, y, expected_result", [
